@@ -1,0 +1,145 @@
+@import url(../externalstyle.css);
+
+.footer{
+    top: 456vh;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica","sans-serif";
+    font-weight: 300;
+    overflow-y: scroll;
+    background-color: #fff;
+    
+}
+.content{
+    position: relative;
+    top: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    text-align: center;
+    background-color: rgba(3, 3, 3, 0.9);
+    height: 3600px;
+    margin: 0;
+    padding: 2% 0 2%;
+    border-top: 2px solid rgb(43, 35, 35);    
+}
+.content .topic{
+    text-align: center;
+    margin: 0 0px 20px 0px;
+    padding: 2px;
+    font-size: 80px;
+    color: #fff;
+    
+}
+.content h2{
+    text-align: center;
+    background-color: rgba(17, 17, 17, 0.9);
+    margin: 0 15% 2%;
+    padding: 2%;
+    border-top: 2px solid white;
+    border-bottom: 2px groove white;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.content h3{
+    padding-bottom: 2%;
+}
+
+nav.event_nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 2.5%;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+    position: static;
+}
+
+nav.event_nav li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+nav.event_nav  li a {
+    display: block;
+    color: rgb(255, 252, 252);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav.event_nav  li a:hover {
+    background-color: #111;
+}
+
+nav.event_nav  li a:active{
+    background-color: white;
+    color: #111;
+}
+
+div.event_container{
+    background-color:transparent;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 21.5% 4%;
+    font-size: 1.5rem;
+}
+
+.event_container h3{
+    background-color: rgba(255, 255, 255, 0.98);
+    text-align: center;
+    padding-top: 3%;
+    border-top: 2px solid white;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.event_description{
+    padding: 3%;
+    border: 2px solid rgb(19, 18, 18);
+    border-radius: 30px;
+    background-color: white;
+    
+}
+
+.event_video{
+    width: 800px;
+    height: 400px;
+    border-radius: 30px;
+  
+}
+
+.footer{
+    top: 475vh;
+    z-index: 10;
+}
+
+.page_editor a {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.36);
+    color: white
+}
+
+.page_editor a:link, .page_editor a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.page_editor a:hover {
+    background-color: black;
+}

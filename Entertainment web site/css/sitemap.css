@@ -1,0 +1,49 @@
+@import url(../externalstyle.css);
+
+body {
+  background-color: #f9f9f9;
+}
+.header .main h1{
+  color: rgb(9, 9, 9);
+}
+.header .main p {
+  color: rgb(61, 56, 61);
+}
+
+.name text{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.name{
+  background-color: #c3bdbd;
+}
+
+.sitemap svg{
+ margin-top: 20%;
+ margin-left: 5%;
+}
+
+#group1, #group2, #group3, #group4, #group5, #group6, #group7, #group8, #group15, #group16, #group17, #group18, #group22, #group23{
+  pointer-events: cursor;
+}
+
+.page_editor a {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.36);
+  color: white
+}
+
+.page_editor a:link, .page_editor a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.page_editor a:hover {
+  background-color: black;
+}

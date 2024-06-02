@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body id="resize">
+    <div class="global-nav">
+        <div class="logo">CKS</div>
+        <nav>
+            <ul class="primary-nav " id="myDIV">
+                <li>
+                    <a href="../../Chanuth_Student_2/WEB/navbar.html" class="link-home btn "></a>
+                </li>
+                <li>
+                    <a href="../../Nidhyaana_Student_1/Web_design_cw/store_page/shop.html" class="btn">Store</a>
+                </li>
+                <li>
+                    <a href="../Student4/gallery.html" class="btn active">Gallery</a>
+                </li>
+                <li>
+                    <a href="../../Isuru_Student_3/Quiz-Student_3.html" class="btn">Quiz!</a>
+                </li>
+                <li>
+                    <a href="../../Chanuth_Student_2/WEB/Comments.html" class="btn">Comment</a>
+                </li>
+                <li>
+                    <a href="../Student4/sitemap.html" class="btn">Site Map</a>
+                </li>
+                <li>
+                    <a href="../../Isuru_Student_3/Student_Details-Student_3.html" class="btn">About us</a>
+                </li>
+                <li>
+                    <a href="#!" class="link-search"></a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="search-container hide">
+            <div class="link-search"></div>
+            <div class="search-bar">
+                <form>
+                    <input type="text"  placeholder="search cks.com" id="searchbar" onkeyup="Search()">
+                </form>
+            </div>
+            <div class="link-close"></div>
+
+            <div class="links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li class="link">
+                        <a href="../../Chanuth_Student_2/WEB/MY/animationAndTvshows.html">Animation & TvShows</a>
+                    </li>
+                    <li class="link">
+                        <a href="../../Isuru_Student_3/Games_Web_Page-Student_3.html">Hogwarts Legacy</a>
+                    </li>
+                    <li class="link">
+                        <a href="../../Nidhyaana_Student_1/Web_design_cw/movie_page/movies.html">Filming</a>
+                    </li>
+                    <li class="link">
+                        <a href="../../Nidhyaana_Student_1/Web_design_cw/movie_page/movies.html">Movie Genres</a>
+                    </li>
+                    <li class="link">
+                        <a href="../Student4/personal-web-page/events.html">Carnivals</a>
+                    </li>
+                    <li class="results">Results-</li>   
+                </ul>
+                <ul id="Searchresults">
+                    <li><a href="../../Nidhyaana_Student_1/Web_design_cw/movie_page/movies.html">comedy</a></li> <!--nidhyaana target movies.html-->
+                    <li><a href="../../Nidhyaana_Student_1/Web_design_cw/movie_page/movies.html">Sci-fi</a></li> <!--nidhyaana target movies.html-->
+                    <li><a href="../../Nidhyaana_Student_1/Web_design_cw/movie_page/movies.html">Horror</a></li> <!--nidhyaana target movies.html-->
+                    <li><a href="../../Isuru_Student_3/Games_Web_Page-Student_3.html">Diablo IV</a></li>  <!--isuru target games html file-->
+                    <li><a href="../../Isuru_Student_3/Games_Web_Page-Student_3.html">Assassin's creed</a></li>   <!--isuru html file-->
+                    <li><a href="../../Nidhyaana_Student_1/Web_design_cw/movie_page/movies.html">Action</a></li> <!--nidhyaana target movies.html-->
+                    <li><a href="../../Nidhyaana_Student_1/Web_design_cw/movie_page/movies.html">Romance</a></li>    <!--nidhyaana target movies.html-->
+                    <li><a href="../../Nidhyaana_Student_1/Web_design_cw/movie_page/movies.html">Drama</a></li>  <!--nidhyaana target movies.html-->
+                    <li><a href="../../Nidhyaana_Student_1/Web_design_cw/movie_page/movies.html">Survival</a></li>   <!--nidhyaana target movies.html-->
+                    <li><a href="../../Chanuth_Student_2/WEB/MY/Animation/animation.html">Arcane</a></li> <!--chanuth target animation.html-->
+                    <li><a href="../../Chanuth_Student_2/WEB/MY/Animation/animation.html">South park</a></li> <!--chanuth target animation.html-->
+                    <li><a href="../../Chanuth_Student_2/WEB/MY/Animation/animation.html">TLOU</a></li>   <!--chanuth target tvshows.html-->
+                    <li><a href="../../Chanuth_Student_2/WEB/MY/TVshows/tvshows.html">Euphoria</a></li> <!--chanuth target tvshows.html-->
+                    <li><a href="../../Chanuth_Student_2/WEB/MY/TVshows/tvshows.html">The Time Travelers Wife</a></li>    <!--chanuth target tvshows.html-->
+                    <li><a href="../../Chanuth_Student_2/WEB/MY/Animation/animation.html">Invincible</a></li> <!--chanuth target animation.html-->
+                    <li><a href="../../Chanuth_Student_2/WEB/MY/Animation/animation.html">Inside Job</a></li> <!--chanuth target animation.html-->
+                    <li><a href="../../Sewni_Student_4/Student4/personal-web-page/events.html">Halloween</a></li> <!--sewni target events.html-->
+                    <li><a href="../../Sewni_Student_4/Student4/personal-web-page/events.html">Christmas</a></li>    <!--sewni target events.html-->
+                    <li><a href="../../Sewni_Student_4/Student4/personal-web-page/events.html">Holy Festivals</a></li>  <!--sewni target events.html-->
+                    <li><a href="../../Sewni_Student_4/Student4/personal-web-page/events.html">Carnivals</a></li>   <!--sewni target events.html-->
+                    <li><a href="../../Sewni_Student_4/Student4/personal-web-page/events.html">Concerts</a></li>   <!--sewni target events.html-->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- end of nav -->
+
+    <div class="page_editor">
+        <a href="../../Sewni_Student_4/Student4/page-editor.html">Sewni's Page Editor</a>
+    </div>
+
+<br><br><br>
+<div>
+    <div class="color">
+        <a onclick="bgchange(id)" id="a">#bdaadb</a>
+        <a onclick="bgchange(id)" id="b">#ebbae5</a>
+        <a onclick="bgchange(id)" id="c">#94d2b0</a>
+        <a onclick="bgchange(id)" id="d">#eaa5a5</a>
+    </div>
+</div>
+
+<div class="cont">
+    <div class="buttons">
+        <span class="btn" onclick="document.getElementById('resize').style.fontSize='small'"  >A</span>
+        <span class="btn" onclick="document.getElementById('resize').style.fontSize='medium'">A</span>
+        <span class="btn" onclick="document.getElementById('resize').style.fontSize='large'">A</span>
+    </div>
+</div>
+    
+    <section class="content">
+        <input type = "radio" name = "photos" id ="check1" checked>
+        <input type = "radio" name = "photos" id ="check2">
+        <input type = "radio" name = "photos" id ="check3"> 
+        <input type = "radio" name = "photos" id ="check4">
+        <input type = "radio" name = "photos" id ="check5">
+
+        <div class = "container">
+            <h1> OUR PHOTO GALLERY</h1>
+            <div class = "top-content">
+                <h3>Photo Gallery</h3>
+                <label for ="check1">All Photos</label>
+                <label for ="check2">Movies</label>
+                <label for ="check3">Animation & TV Series</label>
+                <label for ="check4">Games</label>
+                <label for ="check5">Events</label>
+            </div>
+        
+            <div  class="photo-gallery">
+                <div class="pic movies">
+                    <img src="../../Sewni_Student_4/Student4/images/movies-1-action-avengers.jpg" alt="Avengers">
+                    <div><p>Marvel's The Avengers (classified under the name Marvel Avengers Assemble in the United Kingdom and Ireland),
+                         or simply The Avengers, is a 2012 American superhero film based on the Marvel Comics superhero team of the same name.</p></div>
+                </div>
+                <div class="pic games">
+                    <img src="../../Sewni_Student_4/Student4/images/games-1-diabo4.jpg" alt="Diablo">
+                    <div><p>Diablo IV is an upcoming action role-playing game developed and published by Blizzard Entertainment and is the 
+                        fourth main installment in the Diablo series. The game was announced on November 1, 2019, at BlizzCon 2019, 
+                        and is scheduled for release on June 6, 2023.</p></div>
+                </div>
+                <div class="pic events">
+                    <img src="../../Sewni_Student_4/Student4/images/events-1-carnivals.jpg" alt="Carnival">
+                    <div><p>Carnival is a Western Christian festive season that occurs before the liturgical season of Lent. 
+                        Carnival typically involves public celebrations, including events such as parades, public street parties, 
+                        and other entertainments, combining some elements of a circus.</p></div>
+                </div>
+                <div class="pic movies">
+                    <img src="../../Sewni_Student_4/Student4/images/movies-2-horror-the-conjuring.jpg" alt="Conjuring">
+                    <div><p>The Conjuring is a 2013 American supernatural horror film directed by James Wan and written by Chad Hayes 
+                        and Carey W. Hayes. It is the inaugural film in The Conjuring Universe franchise.</p></div>
+                </div>
+                <div class="pic tvSeries">
+                    <img src="../../Sewni_Student_4/Student4/images/animation-&-tvseries-1-euphoria.jpg" alt="Euphoria">
+                    <div><p>Euphoria is an American teen drama television series created and principally written by Sam Levinson for 
+                        HBO and based on the Israeli miniseries of the same name created by Ron Leshem and Daphna Levin.</p></div>
+                </div>
+                <div class="pic events">
+                    <img src="../../Sewni_Student_4/Student4/images/events-2-halloween-party.jpg" alt="Halloween">
+                    <div><p>Halloween is a celebration observed in many countries on 31 October, the eve of the Western Christian feast 
+                        of All Saints' Day. It begins the observance of Allhallowtide, the time in the liturgical year dedicated to remembering 
+                        the dead, including saints, martyrs, and all the faithful departed.</p></div>
+                </div>
+                <div class="pic movies">
+                    <img src="../../Sewni_Student_4/Student4/images/movies-3-adventure-jurassic-park.jpg" alt="Jurassic">
+                    <div><p>Jurassic Park is a 1993 American science fiction action film directed by Steven Spielberg, produced by 
+                        Kathleen Kennedy and Gerald R. Molen, and starring Sam Neill, Laura Dern, Jeff Goldblum, and Richard Attenborough.</p></div>
+                </div>
+                <div class="pic tvSeries">
+                    <img src="../../Sewni_Student_4/Student4/images/animation-&-tvseries-2-the-last-of-us.jpg" alt="The Last Of Us">
+                    <div><p>The Last of Us is an American post-apocalyptic drama television series created by Craig Mazin and 
+                        Neil Druckmann for HBO. Based on the 2013 video game developed by Naughty Dog, the series is set in 2023, 
+                        twenty years into a pandemic caused by a mass fungal infection.</p></div>
+                </div>
+                <div class="pic movies">
+                    <img src="../../Sewni_Student_4/Student4/images/movies-4-scifi-ender's-game.jpg" alt="Ender's game">
+                    <div><p>Ender's Game is a 2013 American military science-fiction action film based on Orson Scott Card's 1985 
+                        novel of the same name. Written and directed by Gavin Hood, the film stars Asa Butterfield as Andrew "Ender" Wiggin, 
+                        an unusually gifted child who is sent to an advanced military academy in space to prepare for a future alien invasion.</p></div>
+                </div>
+                <div class="pic events">
+                    <img src="../../Sewni_Student_4/Student4/images/events-3-sinhalese-new-year.jpg" alt="Sinhalese New Year">
+                    <div><p>Sinhalese New Year, generally known as Aluth Avurudda in Sri Lanka, is a Sri Lankan holiday that celebrates 
+                        the traditional New Year of the Sinhalese people of Sri Lanka. It is a major anniversary celebrated by not only 
+                        the Sinhalese people but by most Sri Lankans.</p></div>
+                </div>
+                <div class="pic games">
+                    <img src="../../Sewni_Student_4/Student4/images/games-2-overwatch-2.jpg" alt="Overwatch">
+                    <div><p>Overwatch 2 is a 2022 first-person shooter game by Blizzard Entertainment. As a sequel and replacement 
+                        to the 2016 hero shooter Overwatch, the game intends a shared environment for player-versus-player (PvP) modes 
+                        while introducing persistent cooperative modes.</p></div>
+                </div>
+                <div class="pic movies">
+                    <img src="../../Sewni_Student_4/Student4/images/movies-5-comedy-good-newwz.webp" alt="Good Newwz">
+                    <div><p>Good Newwz is an Indian 2019 Hindi-language comedy-drama film directed by Raj Mehta and produced by 
+                        Dharma Productions and Cape of Good Films.</p></div>
+                </div>
+                <div class="pic events">
+                    <img src="../../Sewni_Student_4/Student4/images/events-4-holi-festival.jpg" alt="Holi">
+                    <div><p>Holi is a popular and significant Hindu festival celebrated as the Festival of Colours, Love, and Spring. 
+                        It celebrates the eternal and divine love of the god Radha and Krishna.</p></div>
+                </div>
+                <div class="pic games">
+                    <img src="../../Sewni_Student_4/Student4/images/games-3-the-finals.png" alt="The Finals">
+                    <div><p>The Finals is an upcoming first-person shooter, developed and published by Nexon subsidiary Embark Studios. 
+                        The game focuses on team-based matches on environmentally-destructive maps, where players are encouraged to use 
+                        the dynamic environment to their advantage.</p></div>
+                </div>
+                <div class="pic events">
+                    <img src="../../Sewni_Student_4/Student4/images/events-5-concert.jpg" alt="Concerts">
+                    <div><p>A concert is a live music performance in front of an audience. The performance may be by a single musician or band. 
+                        Concerts are held in a wide variety and sizes of settings, from private houses and small nightclubs, dedicated 
+                        concert halls and parks, to large multipurpose buildings, such as arenas and stadiums.</p></div>
+                </div>
+                <div class="pic games">
+                    <img src="../../Sewni_Student_4/Student4/images/games-4-hogwarts-legacy.jpg" alt="Hogwarts Legacy">
+                    <div><p>Hogwarts Legacy is a 2023 action role-playing game developed by Avalanche Software and published by Warner Bros. 
+                        Games under its Portkey Games label. The game is set in the Wizarding World universe, taking place in the late 1800s, 
+                        a century prior to the events chronicled in the Harry Potter novels.</p></div>
+                </div>
+                <div class="pic movies">
+                    <img src="../../Sewni_Student_4/Student4/images/movies-6-animation-gajaman.jpg" alt="Gajaman">
+                    <div><p>Gajaman, sometimes referred to as Camillus' Gajaman 3D, is a 2023 Sri Lankan Sinhala 3D animated comedy film 
+                        directed by Chanaka Perera and co-produced by John Fonseka and Chamika Jinadasa for Studio 101.</p></div>
+                </div>
+                <div class="pic movies">
+                    <img src="../../Sewni_Student_4/Student4/images/movies-7-romance-titanic.jpg" alt="Titanic">
+                    <div><p>Titanic is a 1997 American epic romance and disaster film directed, written, produced, 
+                        and co-edited by James Cameron.</p></div>
+                </div>
+                <div class="pic games">
+                    <img src="../../Sewni_Student_4/Student4/images/games-5-counter-strike2.webp" alt="Counter-Strike">
+                    <div><p>Counter-Strike (CS) is a series of multiplayer tactical first-person shooter video games in which teams 
+                        of terrorists battle to perpetrate an act of terror (bombing, hostage-taking, assassination) while counter-terrorists 
+                        try to prevent it.</p></div>
+                </div>
+                <div class="pic events">
+                    <img src="../../Sewni_Student_4/Student4/images/events-6-chirstmas-party.jpg" alt="Christmas">
+                    <div><p>Christmas is an annual festival commemorating the birth of Jesus Christ, observed primarily on December 
+                        25 as a religious and cultural celebration among billions of people around the world. This is a feast central 
+                        to the Christian liturgical year.</p></div>
+                </div>
+                <div class="pic tvSeries">
+                    <img src="../../Sewni_Student_4/Student4/images/animation-&-tv-series-3-arcane.jpg" alt="Arcane">
+                    <div><p>Arcane (titled onscreen as Arcane: League of Legends) is an adult animated steampunk action-adventure 
+                        television series created by Christian Linke and Alex Yee for Netflix.</p></div>
+                </div>
+                <div class="pic games">
+                    <img src="../../Sewni_Student_4/Student4/images/games-6-the-legend-of-zelda-tears-of-the-kingdom.png" alt="The Legend Of Zelda">
+                    <div><p>The Legend of Zelda: Tears of the Kingdom is an upcoming 2023 action-adventure game developed by Nintendo 
+                        EPD and published by Nintendo for the Nintendo Switch.</p></div>
+                </div>
+                <div class="pic tvSeries">
+                    <img src="../../Sewni_Student_4/Student4/images/animation-&-tv-series-4-time-travelers-wife.jpg" alt="The Time Traveler">
+                    <div><p>The Time Traveler's Wife is a science fiction romantic drama television series based on the 2003 novel 
+                        of the same name by Audrey Niffenegger. The series was developed and written by Steven Moffat, who had previously 
+                        taken inspiration from Niffenegger's novel for his work on the science fiction series Doctor Who.</p></div>
+                </div>
+                <div class="pic games">
+                    <img src="../../Sewni_Student_4/Student4/images/games7-assassin's-creed-mirage.jpg" alt="Assassin's Creed">
+                    <div><p>Assassin's Creed is an open-world, action-adventure, and stealth game franchise published by Ubisoft and 
+                        developed mainly by its studio Ubisoft Montreal using the game engine Anvil and its more advanced derivatives.</p></div>
+                </div>
+                <div class="pic tvSeries">
+                    <img src="../../Sewni_Student_4/Student4/images/animation-&-tv-series-5-inside-job.jpg" alt="Inside Job">
+                    <div><p>Inside Job is an American adult animated science fiction sitcom created by Shion Takeuchi for Netflix. 
+                        The series premiered on October 22, 2021.</p></div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="list1">
+                <h4>Explore CKS</h4>
+                <ul>
+                    <li><a href="../../Nidhyaana_Student_1/Web_design_cw/store_page/shop.html">Store</a></li>
+                    <li><a href="../../Sewni_Student_4/Student4/gallery.html">Gallery</a></li>
+                    <li><a href="../../Isuru_Student_3/Quiz-Student_3.html">Quiz</a></li>
+                    <li><a href="../../Chanuth_Student_2/WEB/Comments.html">comment</a></li>
+                    <li><a href="../../Sewni_Student_4/Student4/sitemap.html">Site Map</a></li>
+                    <li><a href="../../Isuru_Student_3/Student_Details-Student_3.html">About Us</a></li>
+                    <li><a href="../../Chanuth_Student_2/WEB/page_editor.html" target="_blank" rel="noopener noreferrer">Sewni</a></li>
+                </ul>
+            </div>
+            <div class="list2">
+                <h4>Entertainment</h4>
+                <ul>
+                    <li><a href="../../Chanuth_Student_2/WEB/MY/animationAndTvshows.html">Animation and Tv Series</a></li>
+                    <li><a href="../../Isuru_Student_3/Games_Web_Page-Student_3.html">Games</a></li>
+                    <li><a href="../../Nidhyaana_Student_1/Web_design_cw/movie_page/movies.html">Movies</a></li>
+                    <li><a href="../../Sewni_Student_4/Student4/personal-web-page/events.html">Events</a></li>
+                    
+                </ul>
+            </div>
+            <div class="social">
+                <h4>Socials</h4>
+                <ul>
+
+                    <li><a href="facebook.com">Facebook</a></li>
+                    <li><a href="instagram.com">Instagram</a></li>
+                    <li><a href="Twitter.com">Twitter</a></li>
+                    
+                </ul>
+            </div>
+            <div class="thank">
+                Thank you for visiting CKS
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="overlay"></div>
+    <script src="javascript/gallery.js"></script>
+</body>
+</html>
